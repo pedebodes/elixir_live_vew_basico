@@ -18,7 +18,8 @@ defmodule LiveViewStudioWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
-    live "/light", LightLive
+    
+    live "/light", LightLive # ROTA INCLUIDA
   end
 
   # Other scopes may use custom stacks.
